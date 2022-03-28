@@ -1,0 +1,67 @@
+.oath-img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+input {
+    border: 1px solid rgb(103, 103, 105);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 3px 0px;
+    min-width: 80px;
+    transition: border-color 0.5s ease-out;
+  }
+
+  input+span{
+      color: red;
+  }
+
+  input:focus{
+    border: 1px solid lightblue;
+  }
+  /* input:required:valid {
+    border-color: green;
+  }
+
+  input:required:invalid {
+    border-color: rgb(255, 3, 3);
+  }
+
+  input:invalid {
+    border-color: red;
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+
+  }
+  input:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+    background-size: 25px;
+  }
+  input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;
+  } */
+
+/* input + span {
+    position: relative;
+  } */
+/*   
+  input + span::before {
+    position: absolute;
+    right: -20px;
+    top: -30px;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:invalid + span::before {
+    content: '✖';
+    color: red;
+  }
+  
+  input:valid + span::before {
+    content: '✓';
+    color: green;
+  } */
